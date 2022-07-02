@@ -12,7 +12,7 @@
         <button id="start_btn" class="btn btn-primary btn-large centered">❤ Bắt đầu</button>
         <div id="map_canvas" style="width:100%; height:100%;"></div>
         <div id="curtain"></div>
-        <div id="end_text" class="centered" style="margin-left: -250px">Anh ❤ Em, Love name</div>
+        <div id="end_text" class="centered" style="margin-left: -250px">Anh yêu em, ❤Lan Anh❤</div>
         <audio preload="auto" id="music">
             <source src="music/dadada.ogg" type="audio/ogg" />
             <source src="music/dadada.mp3" type="audio/mpeg" />
@@ -86,7 +86,7 @@
 			
 			//---Nam = Câu hỏi -> Dò sét tình yêu---\\
                 window.my_infowindow = new google.maps.InfoWindow({
-                    content: "Anh yêu em, em có chấp nhận không?!", //Câu hỏi cho cô cấy
+                    content: "Cục iuu anh có hư không ta?!", //Câu hỏi cho cô cấy
                     position: WUHAN
                 });
                 my_infowindow.open(map);
@@ -94,8 +94,8 @@
 				//---Nữ = câu trả lời -> tình yêu--\\
                 window.your_infowindow = new google.maps.InfoWindow({
                     content: '<select>' +
-                                '<option value="yes">Có, em yêu anh.</option>' + //Trả lời 1
-                                '<option value="yes">Không có chuyện từ chối =))</option>' + //Trả lời 2
+                                '<option value="yes">Hư' + //Trả lời 1
+                                '<option value="yes">Rất hư</option>' + //Trả lời 2
                              '</select>' +
                              '<input type="button" value="Gửi" ' + //Submit
                              'onclick="my_infowindow.close();your_infowindow.close();theEnd();" />',
